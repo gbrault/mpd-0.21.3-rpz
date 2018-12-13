@@ -1,5 +1,5 @@
 # mpd-0.21.3-rpz
-mpd 0.21.3 compiled for raspberry pi zero
+mpd 0.21.3 compiled for raspberry pi zero. Thereafter documention holds for comiling on a Raspberry Pi Zero (W), sure cross compiling on a more powerfull machine is the right option, but this works as well.
 
 ## Guidelines
 Get the latest source (0.21.3 December 2018) and unzip it on local pi home directory
