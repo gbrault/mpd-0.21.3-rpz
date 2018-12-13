@@ -1,6 +1,7 @@
 # mpd-0.21.3-rpz
 mpd 0.21.3 compiled for raspberry pi zero
 
+## Guidelines
 Get the latest source (0.21.3 December 2018) and unzip it on local pi home directory
 ```
 wget https://www.musicpd.org/download/mpd/0.21/mpd-0.21.3.tar.xz
@@ -52,3 +53,20 @@ sudo ninja -C output/release install
  - service files are ./output/release/systemd
  - use the mpdconf.example in ./doc for configuration
 
+## other configuration optional settings
+
+[optional: just if compile from source]
+
+```
+// swap increase for compile
+
+sudo nano /etc/dphys-swapfile
+
+# CONF_SWAPSIZE=100 to CONF_SWAPSIZE=1024
+
+sudo /etc/init.d/dphys-swapfile stop
+sudo /etc/init.d/dphys-swapfile start
+
+free -m to monitor status
+# reset it back after compiling
+```
