@@ -48,7 +48,7 @@ meson configure output/release
 ninja -C output/release
 sudo ninja -C output/release install
 ```
-mpd is in ./output/release
-service files are ./output/release/systemd
-use the mpdconf.example in ./doc for configuration
+ - mpd is in ./output/release
+ - service files are ./output/release/systemd
+ - use the mpdconf.example in ./doc for configuration
 
