@@ -1,0 +1,8 @@
+*~
+
+.#*
+.stgit*
+
+/output/
+
+__pycache__/
