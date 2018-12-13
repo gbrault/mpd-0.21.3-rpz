@@ -70,3 +70,7 @@ sudo /etc/init.d/dphys-swapfile start
 free -m to monitor status
 # reset it back after compiling
 ```
+Playing midi files
+```
+sudo apt-get install fluidsynth
+```
