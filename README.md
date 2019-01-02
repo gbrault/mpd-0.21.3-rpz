@@ -36,7 +36,7 @@ sudo apt-get install g++ \
   libgtest-dev \
   libboost-dev \
   libicu-dev \
-  Libgcrypt-dev
+  libgcrypt-dev
 ```
 Install messon and ninja
 ```
