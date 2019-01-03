@@ -36,7 +36,8 @@ sudo apt-get install g++ \
   libgtest-dev \
   libboost-dev \
   libicu-dev \
-  libgcrypt-dev
+  libgcrypt-dev \
+  libsidplayfp-dev
 ```
 Install messon and ninja
 ```
